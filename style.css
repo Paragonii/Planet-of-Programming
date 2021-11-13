@@ -175,3 +175,15 @@ body {
     #showcase h1 {
         margin-top: 40px;
     }
+      /* Container holding the image and the text */
+      .container {
+          position: relative;
+          text-align: center;
+          color: black;
+      }
+      .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
