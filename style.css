@@ -76,7 +76,7 @@ body {
   /* Showcase */
   #showcase {
     min-height: 400px;
-    background-image: url("../assets/work work work.jpg") no-repeat 0 -400px;
+    background-image: url("assets/work work work.jpg") no-repeat 0 -400px;
     text-align: center;
     color: #110d0d;
   }
@@ -175,15 +175,3 @@ body {
     #showcase h1 {
         margin-top: 40px;
     }
-      /* Container holding the image and the text */
-      .container {
-          position: relative;
-          text-align: center;
-          color: black;
-      }
-      .centered {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-      }
