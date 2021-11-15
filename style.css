@@ -79,8 +79,9 @@ body {
   /* Showcase */
   #showcase {
     min-height: 400px;
-    background-image: url("assets/work work work.jpg") no-repeat 0 -400px;
     text-align: center;
+    position: relative;
+    color: black;
     color: #110d0d;
   }
   
