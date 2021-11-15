@@ -10,6 +10,9 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: black;
   }
   
   ul {
@@ -175,3 +178,9 @@ body {
     #showcase h1 {
         margin-top: 40px;
     }
+      .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
